@@ -3,9 +3,9 @@ node-red-heroku
 
 A wrapper for deploying [Node-RED](http://nodered.org) into the [Heroku](https://www.heroku.com).
 
-### Deploying Node-RED into Heroku
+### Deploying Node-RED into Heroku from IoT Makassar
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/joeartsea/node-red-heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/iotmakassar/heroku-nodered)
 
 ### Password protect the flow editor
 

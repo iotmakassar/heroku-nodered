@@ -38,7 +38,17 @@ var settings = module.exports = {
 
     // You can protect the user interface with a userid and password by using the following property
     // the password must be an md5 hash  eg.. 5f4dcc3b5aa765d61d8327deb882cf99 ('password')
-    httpAdminAuth: {user:"iotmakassar",pass:"$2a$08$bZ6cSb3xbbjE2vaSPIBMvuBgKVRSi7rOluDZ/fv2hDqVkOSFJUzbK"},
+    //httpAdminAuth: {user:"iotmakassar",pass:"$2a$08$bZ6cSb3xbbjE2vaSPIBMvuBgKVRSi7rOluDZ/fv2hDqVkOSFJUzbK"},
+
+    adminAuth: {
+        type: "credentials",
+        users: [{
+            username: "admin",
+            password: "$2a$08$tGE9kCjRqHKP355sgIOqo.E6yQRxaBTiPpEQsw6sBt8I/qWhcndh2",
+            permissions: "*"
+        }]
+    },
+
 
     // Serve up the welcome page
     httpStatic: path.join(__dirname,"public"),
